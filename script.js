@@ -1,4 +1,4 @@
-for (let i = 0; i < 4; i++) {
+for (let i = 0; i < 16; i++) {
     container= document.createElement('div');
     container.className = 'container';
     document.body.appendChild(container);
@@ -6,7 +6,7 @@ for (let i = 0; i < 4; i++) {
     container.style.flexDirection = 'row';
     container.style.justifyContent = 'center';
     container.style.alignItems = 'center';
-    for (let j = 0; j < 4; j++) {
+    for (let j = 0; j < 16; j++) {
         const pixel = document.createElement('div');
         pixel.className = 'pixel';
         container.appendChild(pixel);
